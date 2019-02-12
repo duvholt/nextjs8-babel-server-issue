@@ -1,4 +1,4 @@
 {
   "watch": ["server/**/*.ts"],
-  "exec": "ts-node --project tsconfig.server.json server/index.ts"
+  "exec": "babel-node --extensions \".ts,.js\" server/index.ts"
 }
